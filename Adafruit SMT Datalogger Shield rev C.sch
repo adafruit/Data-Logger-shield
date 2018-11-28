@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -5321,7 +5321,7 @@ Epson Toyocom FCC-255</description>
 <part name="U$7" library="microbuilder" deviceset="VDDIO" device=""/>
 <part name="U$8" library="microbuilder" deviceset="VDDIO" device=""/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
-<part name="R8" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1k"/>
+<part name="R8" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10K"/>
 <part name="U$9" library="microbuilder" deviceset="VDDIO" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="U$6" library="microbuilder" deviceset="VDDIO" device=""/>

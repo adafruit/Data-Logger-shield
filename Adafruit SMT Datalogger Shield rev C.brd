@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -5217,6 +5217,9 @@ einem neuen Namen ab.</description>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -5424,7 +5427,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="26.543" y="10.541" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="27.051" y="10.541" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R8" library="microbuilder" package="0805-NO" value="1k" x="28.575" y="12.319" smashed="yes" rot="R180">
+<element name="R8" library="microbuilder" package="0805-NO" value="10K" x="28.575" y="12.319" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.543" y="12.446" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="26.543" y="13.335" size="1.016" layer="27" ratio="10"/>
 </element>
@@ -6534,6 +6537,13 @@ einem neuen Namen ab.</description>
 <wire x1="29.591" y1="10.348" x2="29.525" y2="10.414" width="0.254" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 <errors>
 <approved hash="3,16,e3e80410044ae3b2"/>
 <approved hash="3,16,76818c859d8d8380"/>
